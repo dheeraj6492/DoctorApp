@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements FragmentMessenger
 
     private SectionsPagerAdapter mSectionsPagerAdapter;
 
-
+private String test;
     private ViewPager mViewPager;
 
     @Override
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements FragmentMessenger
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
-        
+
         setIconTab();
       //  mTabLayoutBottom();
         changeFragment(new Fragment_MyHome(), null, "Fragment_MyHome", true);
