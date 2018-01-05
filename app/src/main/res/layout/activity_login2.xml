@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:background="@color/color4"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etv_UserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+         android:layout_centerInParent="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="25dp"
+        android:drawablePadding="5dp"
+        android:maxLines="1"
+
+        android:paddingLeft="25dp"
+        android:singleLine="true"
+        android:textColor="#0e26da"
+        android:textColorHint="#0e26da"
+        android:backgroundTint="#0e26da"
+        android:textColorLink="#0e26da"
+        android:textSize="14dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/mLogin"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+       android:layout_below="@+id/etv_UserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="Sign In"
+        android:textColor="#ffffff"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/login_button"/>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/mJoin"
+
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/mLogin"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="Join In"
+        android:textColor="#ffffff"
+
+        android:layout_marginStart="100dp"
+         android:layout_marginTop="20dp"
+        android:background="@drawable/login_button"/>
+
+
+</RelativeLayout>

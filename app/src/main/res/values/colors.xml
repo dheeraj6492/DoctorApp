@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <color name="colorPrimary">#00c29b</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ed0956</color>
+    <color name="textcol">#40ff86</color>
+    <color name="whitecolor">#ffffff</color>
+
+    <color name="issubollbackground">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="relative">#f26522</color>
+    <color name="relativeCol">#128492</color>
+    <color name="colender">#000000</color>
+
+    <color name="linecolor">#b5b5b5</color>
+
+
+    <color name="checked_button_background">#06be52</color>
+    <color name="unchecked_button_background">#e6e6e6</color>
+    <color name="unchecked_button_textcolor">#bebebe</color>
+    <color name="black">#000000</color>
+    <color name="btn">#c1c1c1</color>
+
+    <color name="speedometerColor1">#d74d0c</color>
+    <color name="speedometerColor2">#60cade</color>
+
+    <color name="color1">#ff0000</color>
+    <color name="color2">#ffc000</color>
+    <color name="color3">#00cc00</color>
+    <color name="color4">#0099ff</color>
+    <color name="color5">#3333ff</color>
+    <color name="color6">#bfff00</color>
+    <color name="color7">#bf00ff</color>
+    <color name="color8">#000000</color>
+    <color name="color9">#00ffff</color>
+    <color name="color10">#e600e6</color>
+    <color name="color11">#004080</color>
+    <color name="color12">#404080</color>
+    <color name="color13">#13d6d2</color>
+
+    <color name="checked">#f26522</color>
+    <color name="unchecked">#cbcbcf</color>
+
+    <color name="checked_product">#128492</color>
+    <color name="unchecked_product">#888889</color>
+
+    <color name="checked_product_box">#c0c0c1</color>
+    <color name="unchecked_product_box">#ecedef</color>
+
+
+
+
+
+    <color name="blackColor">#000</color>
+    <color name="usernameColor">#57701b</color>
+    <color name="background">#e6e4d1</color>
+    <color name="whiteColor">#fff</color>
+    <color name="Red">#FFBA7535</color>
+    <color name="ToolBar_background">#96bb00</color>
+    <color name="createTextColor">#012200</color>
+    <color name="registerColor">#0000FF</color>
+    <color name="color_menu_item">#215c88</color>
+    <color name="colorDivider">#dcdcdc</color>
+    <color name="colorStepViewLine">#5167b6</color>
+</resources>

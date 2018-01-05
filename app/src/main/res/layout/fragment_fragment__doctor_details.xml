@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pinnainfotech.doctorapp.FindDoctorActivity">
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/toolbarrylt"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize">-->
+        <!--<include-->
+            <!--android:id="@+id/toolbar"-->
+            <!--layout="@layout/toolbar_activity">-->
+        <!--</include>-->
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/rylt_seachId2"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbarrylt"
+        android:background="@color/color4"
+        android:layout_height="150dp">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bckButton"
+            android:layout_width="30dp"
+            android:layout_marginTop="10dp"
+
+            android:background="@mipmap/left_arrow"
+            android:layout_marginLeft="10dp"
+            android:layout_height="20dp" />
+
+        <!--<android.support.v7.widget.AppCompatCheckedTextView-->
+        <!--android:id="@+id/textidFind"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Primary Care Physician"-->
+        <!--android:textSize="14dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:textColor="@color/color5"-->
+        <!--android:layout_marginTop="10dp"/>-->
+
+        <LinearLayout
+            android:layout_below="@+id/textidFind"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:id="@+id/ryltVideoCall"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/video_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/video_icon"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/color4"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rylt_VideoPhoto"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/doctor_image"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/doctor_one"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/color4"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rylt_VideoChat"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/chat_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/chat_icon"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/color4"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rylt_seachId2"
+        android:layout_marginTop="5dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="5"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rylt_Book_appointment"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.design.widget.CheckableImageButton
+                        android:id="@+id/btnImage_Book_appointment"
+                        android:background="@mipmap/calender"
+                        android:layout_width="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="30dp" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/tv_RBook_appointment"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:textSize="20dp"
+                        android:text="Book an appointment"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rylt_Request_Prescription"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.design.widget.CheckableImageButton
+                        android:id="@+id/btnImage_Request_Prescription"
+                        android:background="@mipmap/home"
+                        android:layout_width="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="30dp" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/tv_Request_Prescription"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:textSize="20dp"
+                        android:text="Request Prescription"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rylt_Send_Health_details"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.design.widget.CheckableImageButton
+                        android:id="@+id/btnImage_Send_Health_details"
+                        android:background="@mipmap/air_2"
+                        android:layout_width="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="30dp" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/tv_Send_Health_details"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:text="Send Health details"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rylt_Check_in"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.design.widget.CheckableImageButton
+                        android:id="@+id/btnImage_Check_in"
+                        android:background="@mipmap/man_2"
+                        android:layout_width="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="30dp" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/tv_Check_in"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Check in"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rylt_Waiting_room_dashboard"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.design.widget.CheckableImageButton
+                        android:id="@+id/btnImage_SWaiting_room_dashboard"
+                        android:background="@mipmap/my_branch"
+                        android:layout_width="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="30dp" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/tv_Waiting_room_dashboard"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Waiting room dashboard"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

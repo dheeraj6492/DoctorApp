@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single" android:id="@+id/ch_home">
+        <item
+            android:orderInCategory="100"
+        android:id="@+id/nav_home"
+        android:icon="@mipmap/home"
+            app:showAsAction="ifRoom"
+        android:title="Home" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/ch_health">
+    <item
+
+        android:orderInCategory="100"
+        android:id="@+id/nav_myLeads"
+        android:icon="@mipmap/branch"
+        app:showAsAction="ifRoom"
+        android:title="My Health" />
+    </group>
+
+
+    <group android:checkableBehavior="single" android:id="@+id/ch_myaccount">
+    <item
+        android:orderInCategory="100"
+        android:id="@+id/nav_meetings"
+        android:icon="@mipmap/my_team"
+        app:showAsAction="ifRoom"
+        android:title="My Account" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/ch_myMeet">
+    <item
+        android:id="@+id/nav_team"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/pratham_unselect"
+        android:title="My Meet Us" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/ch_Appointment">
+    <item
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:id="@+id/nav_distance"
+        android:icon="@mipmap/my_performance"
+        android:title="Appointment" />
+    </group>
+
+</menu>
+
+
+
